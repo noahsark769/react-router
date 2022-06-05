@@ -226,7 +226,7 @@ window.history.state; // "look ma!"
 
 React Router takes advantage of this browser feature, abstracts it a bit, and surfaces the values on the `location` instead of `history`.
 
-You can think about `location.state` just like `location.hash` or `location.search` except instead of putting the values in the [URL](#url) it's hidden--like a super secret piece of the URL only the programmer knows about.
+You can think about `location.state` just like `location.hash` or `location.search` except instead of putting the values in the [URL](#url) it's hidden - like a super secret piece of the URL only the programmer knows about.
 
 A couple of great use-cases for location state are:
 
